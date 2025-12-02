@@ -106,3 +106,35 @@ footer {
   text-align: center;
 }
 
+/* Center EVERYTHING inside every tile */
+.card {
+  text-align: center;
+}
+
+/* Center rows inside cards */
+.card .files,
+.card .team,
+.card .plots-grid {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Keep plot grid centered as a block */
+.card .plots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 900px;   /* prevents it from stretching too wide */
+}
+
+/* Center captions explicitly */
+.card .caption {
+  text-align: center;
+}
+
+/* Center file buttons content */
+.card .file-card {
+  text-align: center;
+}
+
+
