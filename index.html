@@ -13,14 +13,98 @@
     <h1>Evaluating Bridge‐Node based Methods as Viable Alternatives to Degree-based Methods for Vaccine Allocation in Low Resource Settings</h1>
     <p class="subtitle">CSE 8803 [DS for Epidemiology] / Georgia Institute of Technology / Fall 2025</p>
 
+    <!-- PROJECT LINKS -->
+
+    <section class="card">
+    <h2>Project Files</h2>
+    <div class="files">
+
+    <a class="file-card" href="assets/paper.pdf" target="_blank">
+      📄 <span>Write-up (PDF)</span>
+    </a>
+
+    <a class="file-card" href="assets/software.tar.gz" target="_blank">
+      💻 <span>Software (TAR)</span>
+    </a>
+
+    <a class="file-card" href="data/DS_Epi Poster.pdf" target="_blank">
+      📊 <span>Poster (PDF)</span>
+    </a>
+
+    </div>
+    </section>
+
     <!-- PROJECT SUMMARY -->
     <section class="card">
       <h2>Project Summary</h2>
       <p>
-        This project investigates <b>brief description of your problem</b>.
-        We propose a method that <b>main idea</b>.  
-        Our results show that <b>main takeaway/result</b>.
+       We explore node selection in extremely low-resource settings (i.e. low vaccine availability) using heuristic immunisation algorithms. 
+        We run a modeling study to show that it is more effective to vaccinate bridge nodes rather than vaccinate high-degree nodes. 
+        We compare <strong>seven</strong> selection methods under resource-constrained conditions. We run SIR and Covasim models and compare over existing population and synthetic contact networks data.
+        We display our key results below. 
       </p>
+    </section>
+
+
+    <!-- RESULTS -->
+    <section class="card">
+      <h2>Key Results</h2>
+    
+      <!-- Written Summary with References -->
+      <p class="results-summary">
+        As shown in <a href="#plot1">Figure 1</a>, our method significantly improves accuracy.
+        <a href="#plot2">Figure 2</a> highlights the reduction in training time.
+        The robustness under noise is demonstrated in <a href="#plot3">Figure 3</a> and
+        <a href="#plot4">Figure 4</a>. Generalization trends are shown in
+        <a href="#plot5">Figure 5</a> and <a href="#plot6">Figure 6</a>,
+        while scalability and ablation results appear in
+        <a href="#plot7">Figure 7</a> and <a href="#plot8">Figure 8</a>.
+      </p>
+    
+      <!-- PDF PLOTS GRID -->
+      <div class="plots-grid">
+    
+        <div class="plot-card" id="plot1">
+          <object data="data/plot1.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 1: Accuracy comparison across models.</p>
+        </div>
+    
+        <div class="plot-card" id="plot2">
+          <object data="data/plot2.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 2: Training time reduction.</p>
+        </div>
+    
+        <div class="plot-card" id="plot3">
+          <object data="data/plot3.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 3: Robustness under Gaussian noise.</p>
+        </div>
+    
+        <div class="plot-card" id="plot4">
+          <object data="data/plot4.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 4: Robustness under adversarial noise.</p>
+        </div>
+    
+        <div class="plot-card" id="plot5">
+          <object data="data/plot5.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 5: Cross-dataset generalization.</p>
+        </div>
+    
+        <div class="plot-card" id="plot6">
+          <object data="data/plot6.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 6: Validation vs training performance.</p>
+        </div>
+    
+        <div class="plot-card" id="plot7">
+          <object data="data/plot7.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 7: Scalability with dataset size.</p>
+        </div>
+    
+        <div class="plot-card" id="plot8">
+          <object data="data/plot8.pdf" type="application/pdf"></object>
+          <p class="caption">Figure 8: Ablation study of system components.</p>
+        </div>
+    
+      </div>
     </section>
 
     <!-- TEAM MEMBERS -->
@@ -46,44 +130,7 @@
       </div>
     </section>
 
-    <!-- PROJECT LINKS -->
-    <section class="card">
-      <h2>Project Files</h2>
-      <ul class="links">
-        <li>📄 <a href="assets/paper.pdf" target="_blank">Project Write-up (PDF)</a></li>
-        <li>💻 <a href="assets/software.tar.gz" target="_blank">Software (TAR)</a></li>
-      </ul>
-    </section>
-
-    <section class="card">
-  <h2>Project Files</h2>
-  <div class="files">
-
-    <a class="file-card" href="assets/paper.pdf" target="_blank">
-      📄 <span>Write-up (PDF)</span>
-    </a>
-
-    <a class="file-card" href="assets/software.tar.gz" target="_blank">
-      💻 <span>Software (TAR)</span>
-    </a>
-
-    <a class="file-card" href="data/DS_Epi Poster.pdf" target="_blank">
-      📊 <span>Poster (PDF)</span>
-    </a>
-
-  </div>
-</section>
-
-    <!-- RESULTS -->
-    <section class="card">
-      <h2>Key Results</h2>
-      <ul>
-        <li>✔️ Result 1 (accuracy, speed, improvement, etc.)</li>
-        <li>✔️ Result 2</li>
-        <li>✔️ Result 3</li>
-      </ul>
-    </section>
-
+   
     <footer>
       <p>© 2025 Detect Bridge Nodes</p>
     </footer>
