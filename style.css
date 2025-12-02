@@ -138,10 +138,10 @@ footer {
 }
 
 .summary-bullets {
-  list-style-position: inside;
-  padding-left: 0;
-  text-align: left;
-  margin-top: 10px;
+  text-align: left;        /* ✅ Left-align text */
+  padding-left: 20px;     /* ✅ Pull bullets to the left */
+  margin-left: 0;         /* ✅ Remove extra indentation */
+  list-style-position: outside;
 }
 
 /* ---- ZOOM / LIGHTBOX MODE ---- */
