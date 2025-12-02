@@ -140,7 +140,7 @@ footer {
 .summary-bullets {
   list-style-position: inside;
   padding-left: 0;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
 }
 
@@ -185,5 +185,6 @@ footer {
 
 .summary-bullets li {
   margin-bottom: 8px;
+  text-align: left;
 }
 
