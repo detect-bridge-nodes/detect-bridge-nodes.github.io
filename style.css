@@ -183,19 +183,3 @@ footer {
   margin-bottom: 8px;
   text-align: left;
 }
-
-/* ✅ Makes magnifying glass show over ENTIRE image */
-.zoom-hover {
-  cursor: zoom-in;              /* ✅ Always show magnifier */
-}
-
-/* Prevent iframe from stealing hover */
-.zoom-hover iframe {
-  pointer-events: none;        /* ✅ CRITICAL FIX */
-}
-
-.zoom-hover:hover {
-  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.25);
-  transition: box-shadow 0.2s ease;
-}
-
