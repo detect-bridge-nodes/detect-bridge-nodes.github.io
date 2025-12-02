@@ -191,17 +191,11 @@ footer {
 /* ✅ Makes magnifying glass show over ENTIRE image */
 .zoom-hover {
   cursor: zoom-in;              /* ✅ Always show magnifier */
-  width: 100%;
-  height: 100%;
 }
 
 /* Prevent iframe from stealing hover */
 .zoom-hover iframe {
   pointer-events: none;        /* ✅ CRITICAL FIX */
-  width: 100%;
-  height: 440px;
-  border: none;
-  border-radius: 8px;
 }
 
 .zoom-hover:hover {
