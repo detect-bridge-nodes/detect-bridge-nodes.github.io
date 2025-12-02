@@ -74,3 +74,31 @@ footer {
   color: gray;
   margin-top: 40px;
 }
+
+.files {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.file-card {
+  background: #f0f4ff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #003366;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  min-width: 180px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+  text-decoration: none;
+}
+
