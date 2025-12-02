@@ -66,74 +66,107 @@
       <div class="plots-grid">
     
         <div class="plot-card" id="plot1">
-          <iframe 
-            src="data/cum_inf_and_deaths_front_load_init_80.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_front_load_init_80.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_front_load_init_80.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 1: SIR model with Front-load strategy with initial random infected nodes = 80 on Zenodo population data.</p>
         </div>
+        
     
         <div class="plot-card" id="plot2">
-          <iframe 
-            src="data/cum_inf_and_deaths_front_load_init_160.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_front_load_init_160.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_front_load_init_160.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 2: SIR model with Front-load strategy with initial random infected nodes = 160 on Zenodo population data.</p>
         </div>
     
         <div class="plot-card" id="plot3">
-          <iframe 
-            src="data/cum_inf_and_deaths_front_load_comminit_40.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_front_load_comminit_40.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_front_load_comminit_40.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 3: SIR model with Front-load strategy with initial infected nodes as the first 40 nodes from the largest community structure on Zenodo population data.</p>
         </div>
     
         <div class="plot-card" id="plot4">
-          <iframe 
-            src="data/cum_inf_and_deaths_front_load_comminit_80.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_front_load_comminit_80.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_front_load_comminit_80.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 4: SIR model with Front-load strategy with initial infected nodes as the first 80 nodes from the largest community structure on Zenodo population data.</p>
         </div>
     
         <div class="plot-card" id="plot5">
-          <iframe 
-            src="data/cum_inf_and_deaths_trickle_init_80.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_trickle_init_80.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_trickle_init_80.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 5: SIR model with Trickle strategy with initial random infected nodes = 80 on Zenodo population data.</p>
         </div>
     
         <div class="plot-card" id="plot6">
-          <iframe 
-            src="data/cum_inf_and_deaths_trickle_init_160.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_trickle_init_160.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_trickle_init_160.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 6: SIR model with Trickle strategy with initial random infected nodes = 160 on Zenodo population data.</p>
         </div>
     
         <div class="plot-card" id="plot7">
-          <iframe 
-            src="data/cum_inf_and_deaths_trickle_comminit_40.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_trickle_comminit_40.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_trickle_comminit_40.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 7: SIR model with Trickle strategy with initial infected nodes as the first 40 nodes from the largest community structure on Zenodo population data.</p>
         </div>
     
         <div class="plot-card" id="plot8">
-          <iframe 
-            src="data/cum_inf_and_deaths_trickle_comminit_80.pdf"
-            class="zoomable-plot"
+          <div 
+            class="zoom-hover"
             data-pdf="data/cum_inf_and_deaths_trickle_comminit_80.pdf">
-          </iframe>
+          
+            <iframe 
+              src="data/cum_inf_and_deaths_trickle_comminit_80.pdf">
+            </iframe>
+          
+          </div>
           <p class="caption">Figure 8: SIR model with Trickle strategy with initial infected nodes as the first 80 nodes from the largest community structure on Zenodo population data.</p>
         </div>
     
@@ -178,7 +211,7 @@
 </div>
 
 <script>
-  const zoomables = document.querySelectorAll(".zoomable-plot");
+  const zoomables = document.querySelectorAll(".zoomable-hover");
   const overlay = document.getElementById("zoomOverlay");
   const zoomFrame = document.getElementById("zoomFrame");
 
