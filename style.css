@@ -137,4 +137,14 @@ footer {
   text-align: center;
 }
 
+.summary-bullets {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.summary-bullets li {
+  margin-bottom: 8px;
+}
 
